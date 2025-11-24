@@ -1,2 +1,3 @@
-##To run use
-```docker compose up -d --build
+## To run use
+```
+docker compose up -d --build
