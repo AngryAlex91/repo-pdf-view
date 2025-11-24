@@ -1,0 +1,29 @@
+{
+  "name": "pdf-viewer-ollama",
+  "version": "1.0.0",
+  "description": "PDF Viewer with Local AI using Ollama",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "docker:restart": "docker-compose restart"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.0.0",
+    "pinia": "^3.0.3",
+    "terser": "^5.44.0",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "^5.9.3",
+    "vite": "^5.0.0"
+  }
+}
